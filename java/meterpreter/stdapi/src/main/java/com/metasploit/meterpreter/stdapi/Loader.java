@@ -27,6 +27,7 @@ public class Loader implements ExtensionLoader {
         mgr.registerCommand("channel_create_stdapi_net_tcp_client", channel_create_stdapi_net_tcp_client.class);
         mgr.registerCommand("channel_create_stdapi_net_tcp_server", channel_create_stdapi_net_tcp_server.class);
         mgr.registerCommand("channel_create_stdapi_net_udp_client", channel_create_stdapi_net_udp_client.class);
+        mgr.registerCommand("channel_create_stdapi_net_mic_broadcast", channel_create_stdapi_net_mic_broadcast.class);
         mgr.registerCommand("stdapi_fs_chdir", stdapi_fs_chdir.class);
         mgr.registerCommand("stdapi_fs_delete_dir", stdapi_fs_delete_dir.class);
         mgr.registerCommand("stdapi_fs_delete_file", stdapi_fs_delete_file.class);
