@@ -27,7 +27,7 @@ public class Loader implements ExtensionLoader {
         mgr.registerCommand("channel_create_stdapi_net_tcp_client", channel_create_stdapi_net_tcp_client.class);
         mgr.registerCommand("channel_create_stdapi_net_tcp_server", channel_create_stdapi_net_tcp_server.class);
         mgr.registerCommand("channel_create_stdapi_net_udp_client", channel_create_stdapi_net_udp_client.class);
-        mgr.registerCommand("channel_create_stdapi_net_mic_broadcast", channel_create_stdapi_net_mic_broadcast.class);
+        mgr.registerCommand("channel_create_stdapi_net_mic_broadcast", channel_create_stdapi_net_mic_broadcast.class, V1_4);
         mgr.registerCommand("stdapi_fs_chdir", stdapi_fs_chdir.class);
         mgr.registerCommand("stdapi_fs_delete_dir", stdapi_fs_delete_dir.class);
         mgr.registerCommand("stdapi_fs_delete_file", stdapi_fs_delete_file.class);
@@ -49,7 +49,7 @@ public class Loader implements ExtensionLoader {
         mgr.registerCommand("stdapi_sys_process_execute", stdapi_sys_process_execute.class, V1_2, V1_3);
         mgr.registerCommand("stdapi_sys_process_get_processes", stdapi_sys_process_get_processes.class, V1_2);
         mgr.registerCommand("stdapi_ui_desktop_screenshot", stdapi_ui_desktop_screenshot.class, V1_4);
-        mgr.registerCommand("stdapi_sys_audio_get_interfaces", stdapi_sys_audio_get_interfaces.class);
+        mgr.registerCommand("stdapi_sys_audio_get_interfaces", stdapi_sys_audio_get_interfaces.class, V1_4);
         mgr.registerCommand("webcam_audio_record", webcam_audio_record.class, V1_4);
     }
 }

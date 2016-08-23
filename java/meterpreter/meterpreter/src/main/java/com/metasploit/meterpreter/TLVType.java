@@ -198,5 +198,5 @@ public interface TLVType {
     public static final int TLV_TYPE_DESKTOP_SCREENSHOT_PE64DLL_BUFFER = TLVPacket.TLV_META_TYPE_STRING | 3012;
     
     // Audio Channel
-    public static final int TLV_TYPE_AUDIO_INTERFACE_NAME = TLVPacket.TLV_META_TYPE_STRING | 1432;
+    //public static final int TLV_TYPE_AUDIO_INTERFACE_NAME = TLVPacket.TLV_META_TYPE_STRING | 1432;
 }
